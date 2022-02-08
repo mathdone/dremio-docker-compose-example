@@ -13,7 +13,7 @@ services:
     # Dremio data
     - ./dremio_data:/opt/dremio/data
     # dremio.conf
-    - ./dremio_master.conf:/opt/dremio/conf/dremio.conf
+    - ./dremio_master_coordinator.conf:/opt/dremio/conf/dremio.conf
 
   dremio_executor:
     image: dremio/dremio-oss:latest
